@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		04A3D6C62A43FC7900901FD1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04A3D6C52A43FC7900901FD1 /* GoogleService-Info.plist */; };
+		04A9D8F32A442B6600DCA7BC /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9D8F22A442B6600DCA7BC /* DatabaseManager.swift */; };
 		04E85E192A416875001011FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E85E182A416875001011FD /* AppDelegate.swift */; };
 		04E85E1B2A416875001011FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E85E1A2A416875001011FD /* SceneDelegate.swift */; };
 		04E85E1D2A416875001011FD /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E85E1C2A416875001011FD /* ConversationsViewController.swift */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		04A3D6C52A43FC7900901FD1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		04A9D8F22A442B6600DCA7BC /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		04E85E152A416875001011FD /* ChatMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E85E182A416875001011FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04E85E1A2A416875001011FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				04E85E182A416875001011FD /* AppDelegate.swift */,
 				04E85E1A2A416875001011FD /* SceneDelegate.swift */,
 				04EF3A8E2A419726009CD737 /* Extension.swift */,
+				04A9D8F22A442B6600DCA7BC /* DatabaseManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 				04EF3A862A418932009CD737 /* PhotoViewerViewController.swift in Sources */,
 				04EF3A842A41891D009CD737 /* RegisterViewController.swift in Sources */,
 				04EF3A882A418944009CD737 /* VideoPlayerViewController.swift in Sources */,
+				04A9D8F32A442B6600DCA7BC /* DatabaseManager.swift in Sources */,
 				04EF3A8A2A41895D009CD737 /* NewConversationViewController.swift in Sources */,
 				04EF3A822A418912009CD737 /* LoginViewController.swift in Sources */,
 				04E85E232A416875001011FD /* ChatMaster.xcdatamodeld in Sources */,
