@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04A3D6C62A43FC7900901FD1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04A3D6C52A43FC7900901FD1 /* GoogleService-Info.plist */; };
 		04E85E192A416875001011FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E85E182A416875001011FD /* AppDelegate.swift */; };
 		04E85E1B2A416875001011FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E85E1A2A416875001011FD /* SceneDelegate.swift */; };
 		04E85E1D2A416875001011FD /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E85E1C2A416875001011FD /* ConversationsViewController.swift */; };
@@ -21,9 +22,11 @@
 		04EF3A8A2A41895D009CD737 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF3A892A41895D009CD737 /* NewConversationViewController.swift */; };
 		04EF3A8C2A418985009CD737 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF3A8B2A418985009CD737 /* ProfileViewController.swift */; };
 		04EF3A8F2A419726009CD737 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF3A8E2A419726009CD737 /* Extension.swift */; };
+		9257CE32666E595508030A8F /* Pods_ChatMaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD251CDEAC3E64916C1558C1 /* Pods_ChatMaster.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04A3D6C52A43FC7900901FD1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		04E85E152A416875001011FD /* ChatMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E85E182A416875001011FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04E85E1A2A416875001011FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +43,9 @@
 		04EF3A892A41895D009CD737 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
 		04EF3A8B2A418985009CD737 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		04EF3A8E2A419726009CD737 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		E34B6BD6703C3F9D0BE68228 /* Pods-ChatMaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatMaster.debug.xcconfig"; path = "Target Support Files/Pods-ChatMaster/Pods-ChatMaster.debug.xcconfig"; sourceTree = "<group>"; };
+		E71E8D9DADC8C4D20FDFA0FF /* Pods-ChatMaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatMaster.release.xcconfig"; path = "Target Support Files/Pods-ChatMaster/Pods-ChatMaster.release.xcconfig"; sourceTree = "<group>"; };
+		FD251CDEAC3E64916C1558C1 /* Pods_ChatMaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatMaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9257CE32666E595508030A8F /* Pods_ChatMaster.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +65,8 @@
 			children = (
 				04E85E172A416875001011FD /* ChatMaster */,
 				04E85E162A416875001011FD /* Products */,
+				DD9A3E609DD2C2A4D1083DDD /* Pods */,
+				060984E74827E5A945F28868 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +81,7 @@
 		04E85E172A416875001011FD /* ChatMaster */ = {
 			isa = PBXGroup;
 			children = (
+				04A3D6C52A43FC7900901FD1 /* GoogleService-Info.plist */,
 				04EF3A7C2A418589009CD737 /* Resources */,
 				04EF3A7E2A4185A5009CD737 /* ViewModels */,
 				04EF3A7D2A4185A0009CD737 /* Models */,
@@ -147,6 +157,23 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		060984E74827E5A945F28868 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD251CDEAC3E64916C1558C1 /* Pods_ChatMaster.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD9A3E609DD2C2A4D1083DDD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E34B6BD6703C3F9D0BE68228 /* Pods-ChatMaster.debug.xcconfig */,
+				E71E8D9DADC8C4D20FDFA0FF /* Pods-ChatMaster.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -154,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04E85E2C2A416876001011FD /* Build configuration list for PBXNativeTarget "ChatMaster" */;
 			buildPhases = (
+				CE879716C193C120D632DF0B /* [CP] Check Pods Manifest.lock */,
 				04E85E112A416875001011FD /* Sources */,
 				04E85E122A416875001011FD /* Frameworks */,
 				04E85E132A416875001011FD /* Resources */,
+				089CE530ABC7A899F8AFD6C8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -208,10 +237,53 @@
 				04E85E282A416876001011FD /* LaunchScreen.storyboard in Resources */,
 				04E85E252A416876001011FD /* Assets.xcassets in Resources */,
 				04E85E202A416875001011FD /* Main.storyboard in Resources */,
+				04A3D6C62A43FC7900901FD1 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		089CE530ABC7A899F8AFD6C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChatMaster/Pods-ChatMaster-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChatMaster/Pods-ChatMaster-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChatMaster/Pods-ChatMaster-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE879716C193C120D632DF0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChatMaster-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04E85E112A416875001011FD /* Sources */ = {
@@ -370,6 +442,7 @@
 		};
 		04E85E2D2A416876001011FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E34B6BD6703C3F9D0BE68228 /* Pods-ChatMaster.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -401,6 +474,7 @@
 		};
 		04E85E2E2A416876001011FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E71E8D9DADC8C4D20FDFA0FF /* Pods-ChatMaster.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
