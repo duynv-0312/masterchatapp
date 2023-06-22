@@ -9,23 +9,37 @@
 /* Begin PBXBuildFile section */
 		04E85E192A416875001011FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E85E182A416875001011FD /* AppDelegate.swift */; };
 		04E85E1B2A416875001011FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E85E1A2A416875001011FD /* SceneDelegate.swift */; };
-		04E85E1D2A416875001011FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E85E1C2A416875001011FD /* ViewController.swift */; };
+		04E85E1D2A416875001011FD /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E85E1C2A416875001011FD /* ConversationsViewController.swift */; };
 		04E85E202A416875001011FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E85E1E2A416875001011FD /* Main.storyboard */; };
 		04E85E232A416875001011FD /* ChatMaster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04E85E212A416875001011FD /* ChatMaster.xcdatamodeld */; };
 		04E85E252A416876001011FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E85E242A416876001011FD /* Assets.xcassets */; };
 		04E85E282A416876001011FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E85E262A416876001011FD /* LaunchScreen.storyboard */; };
+		04EF3A822A418912009CD737 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF3A812A418912009CD737 /* LoginViewController.swift */; };
+		04EF3A842A41891D009CD737 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF3A832A41891D009CD737 /* RegisterViewController.swift */; };
+		04EF3A862A418932009CD737 /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF3A852A418932009CD737 /* PhotoViewerViewController.swift */; };
+		04EF3A882A418944009CD737 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF3A872A418944009CD737 /* VideoPlayerViewController.swift */; };
+		04EF3A8A2A41895D009CD737 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF3A892A41895D009CD737 /* NewConversationViewController.swift */; };
+		04EF3A8C2A418985009CD737 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF3A8B2A418985009CD737 /* ProfileViewController.swift */; };
+		04EF3A8F2A419726009CD737 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF3A8E2A419726009CD737 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04E85E152A416875001011FD /* ChatMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E85E182A416875001011FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04E85E1A2A416875001011FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04E85E1C2A416875001011FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04E85E1C2A416875001011FD /* ConversationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
 		04E85E1F2A416875001011FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04E85E222A416875001011FD /* ChatMaster.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChatMaster.xcdatamodel; sourceTree = "<group>"; };
 		04E85E242A416876001011FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04E85E272A416876001011FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04E85E292A416876001011FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EF3A812A418912009CD737 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		04EF3A832A41891D009CD737 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		04EF3A852A418932009CD737 /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
+		04EF3A872A418944009CD737 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		04EF3A892A41895D009CD737 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
+		04EF3A8B2A418985009CD737 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		04EF3A8E2A419726009CD737 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +72,79 @@
 		04E85E172A416875001011FD /* ChatMaster */ = {
 			isa = PBXGroup;
 			children = (
-				04E85E182A416875001011FD /* AppDelegate.swift */,
-				04E85E1A2A416875001011FD /* SceneDelegate.swift */,
-				04E85E1C2A416875001011FD /* ViewController.swift */,
-				04E85E1E2A416875001011FD /* Main.storyboard */,
+				04EF3A7C2A418589009CD737 /* Resources */,
+				04EF3A7E2A4185A5009CD737 /* ViewModels */,
+				04EF3A7D2A4185A0009CD737 /* Models */,
+				04EF3A7A2A418571009CD737 /* Views */,
+				04EF3A7B2A418576009CD737 /* ViewControllers */,
 				04E85E242A416876001011FD /* Assets.xcassets */,
-				04E85E262A416876001011FD /* LaunchScreen.storyboard */,
 				04E85E292A416876001011FD /* Info.plist */,
 				04E85E212A416875001011FD /* ChatMaster.xcdatamodeld */,
 			);
 			path = ChatMaster;
+			sourceTree = "<group>";
+		};
+		04EF3A7A2A418571009CD737 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04EF3A7F2A4185D8009CD737 /* Storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04EF3A7B2A418576009CD737 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04E85E1C2A416875001011FD /* ConversationsViewController.swift */,
+				04EF3A852A418932009CD737 /* PhotoViewerViewController.swift */,
+				04EF3A872A418944009CD737 /* VideoPlayerViewController.swift */,
+				04EF3A892A41895D009CD737 /* NewConversationViewController.swift */,
+				04EF3A8B2A418985009CD737 /* ProfileViewController.swift */,
+				04EF3A8D2A418ABB009CD737 /* Login */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		04EF3A7C2A418589009CD737 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04E85E182A416875001011FD /* AppDelegate.swift */,
+				04E85E1A2A416875001011FD /* SceneDelegate.swift */,
+				04EF3A8E2A419726009CD737 /* Extension.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04EF3A7D2A4185A0009CD737 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04EF3A7E2A4185A5009CD737 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		04EF3A7F2A4185D8009CD737 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				04E85E1E2A416875001011FD /* Main.storyboard */,
+				04E85E262A416876001011FD /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		04EF3A8D2A418ABB009CD737 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				04EF3A812A418912009CD737 /* LoginViewController.swift */,
+				04EF3A832A41891D009CD737 /* RegisterViewController.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +218,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E85E1D2A416875001011FD /* ViewController.swift in Sources */,
+				04E85E1D2A416875001011FD /* ConversationsViewController.swift in Sources */,
 				04E85E192A416875001011FD /* AppDelegate.swift in Sources */,
+				04EF3A8C2A418985009CD737 /* ProfileViewController.swift in Sources */,
 				04E85E1B2A416875001011FD /* SceneDelegate.swift in Sources */,
+				04EF3A8F2A419726009CD737 /* Extension.swift in Sources */,
+				04EF3A862A418932009CD737 /* PhotoViewerViewController.swift in Sources */,
+				04EF3A842A41891D009CD737 /* RegisterViewController.swift in Sources */,
+				04EF3A882A418944009CD737 /* VideoPlayerViewController.swift in Sources */,
+				04EF3A8A2A41895D009CD737 /* NewConversationViewController.swift in Sources */,
+				04EF3A822A418912009CD737 /* LoginViewController.swift in Sources */,
 				04E85E232A416875001011FD /* ChatMaster.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,11 +378,14 @@
 				DEVELOPMENT_TEAM = ARMM6255RH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ChatMaster/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow access to take a profile picture";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Please allow access to select a photo for your profile";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,11 +409,14 @@
 				DEVELOPMENT_TEAM = ARMM6255RH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ChatMaster/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow access to take a profile picture";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Please allow access to select a photo for your profile";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

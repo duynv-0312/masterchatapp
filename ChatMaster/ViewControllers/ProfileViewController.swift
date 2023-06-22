@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ProfileViewController.swift
 //  ChatMaster
 //
 //  Created by Duy Nguyễn on 20/06/2023.
@@ -7,13 +7,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ProfileViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        configView()
     }
-
-
+    
+    private func configView() {
+        
+    }
 }
-
